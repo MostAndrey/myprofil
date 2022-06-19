@@ -1,3 +1,15 @@
 body {
-  background-color: ;
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font: normal ; 'Georgia, "Times New Roman", Times, serif; */
+}
+.avatar {
+  width: 200px;
+}
+.info p {
+  color: #86898f;
 }
