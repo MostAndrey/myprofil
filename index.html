@@ -5,84 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Mostovoy CV</title>
-   <link href="./styles.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
   <body>
-    <div class="info"> 
-          <img src="./images/most.jpeg" alt="Мостовой Андрей фото" class="avatar"/>
-          <h1>Мостовой Андрей</h1>
-          <p> Я основатель <strong>футбольного клуба</strong></p>
-          <p>я люблю путишествовать, заниматься спортом и програмировать</p>
-    </div>
-    <hr />
+    <div class="container">
+      <div class="info">
+        <img
+          src="./images/most.jpeg"
+          alt="Мостовой Андрей фото"
+          class="avatar"
+        />
+        <h1>Мостовой Андрей</h1>
+        <p>Я основатель <strong>футбольного клуба</strong></p>
+        <p>я люблю путишествовать, заниматься спортом и програмировать</p>
 
-    <h2>Мои социальные сети</h2>
-    <ul>
-      <li>
+        <h4>Мои социальные сети</h4>
         <a href="https://instagram.com/a_mostovoy" target="_blank">Instargam</a>
-      </li>
-      <li>
+
+        |
         <a href="https://youtube.com" target="_blank">YouTube</a>
-      </li>
-    </ul>
-    <hr />
-    <h2>Мои хобби</h2>
-    <ol>
-      <li>Спорт</li>
-      <li>Путишествие</li>
-      <li>Програмирование</li>
-    </ol>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Спорт</li>
+          <li>Путишествие</li>
+          <li>Програмирование</li>
+        </ol>
+      </div>
 
-    <hr />
+      <div class="card bg-green">
+        <h2>Опит работы</h2>
+        <table class="table">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td class="Desna">FC Desna</td>
+              <td class="fon">76(1)</td>
+              <td class="fon">2016 - 2021</td>
+            </tr>
+            <tr>
+              <td class="Kryvbas">FC Kryvbas</td>
+              <td class="fon">16</td>
+              <td class="fon">2021 - 2022</td>
+            </tr>
+            <tr>
+              <td class="Shev">Shevardeny-1906</td>
+              <td class="fon">7(3)</td>
+              <td class="fon">2022 - now</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <h2>Видео голов</h2>
+        <a href="youtube.html">Посмотреть список</a>
+      </div>
 
-    <h2>Опит работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Компания</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>FC Desna</td>
-          <td>soccer player</td>
-          <td>2016 - 2021</td>
-        </tr>
-        <tr>
-          <td>Professional football club</td>
-          <td>Left defender</td>
-          <td>2016 - 2021</td>
-        </tr>
-      </tbody>
-    </table>
+      <h2>Связаться со мной</h2>
 
-    <hr />
+      <form action="/">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="введите имя..." />
 
-    <h2>Youtube Курсы</h2>
-    <a href="youtube.html">Посмотреть список</a>
+        <br />
 
-    <hr />
+        <label for="email">Ваше email</label>
+        <input type="email" id="email" placeholder="Введите email..." />
+        <br />
 
-    <h2>Связаться со мной</h2>
+        <label for="text">Ваше сообщение</label>
+        <br />
+        <textarea id="text" cols="15" rows="2"></textarea>
 
-    <form action="/">
-      <label for="name">Ваше имя</label>
-      <input type="text" id="name" placeholder="введите имя..." />
+        <br />
 
-      <br />
-
-      <label for="email">Ваше email</label>
-      <input type="email" id="email" placeholder="Введите email..." />
-      <br />
-
-      <label for="text">Ваше сообщение</label>
-      <br />
-      <textarea id="text" cols="15" rows="2"></textarea>
-
-      <br />
-
-      <input type="submit" value="Связаться!" />
-    </form>
+        <input type="submit" value="Связаться!" />
+      </form>
+    </div>
+    <div style="margin-bottom: 500px"></div>
   </body>
 </html>
